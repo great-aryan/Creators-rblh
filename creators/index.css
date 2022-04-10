@@ -374,8 +374,11 @@ h3{
 }
 .about-col{
     flex-basis: 48%;
-
 }
+#about-para{
+    margin-top: 8%;
+}
+
 .about-col img{
     width: 100%;
     height: 90%;
@@ -383,28 +386,30 @@ h3{
 }
 .about-col h1{
     padding-top: 0;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    margin-left: 2%;
+    justify-content: left;
 }
 .about-us li{
     color: white;
 }
 .rules h1{
-    justify-content: center;
-    text-align: center;
+    padding-top: 0;
+    text-align: left;
+    justify-content: left;
 }
 .perks h1{
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     margin-top: 9%;
+}
+.perks{
+    margin-bottom: 9%;
 }
 .themes h1{
-    justify-content: center;
-    text-align: center;
-    margin-top: 9%;
-}
-.themes{
-    margin-bottom: 5%;
+    padding-top: 0;
+    text-align: left;
+    justify-content: left;
 }
 /* ----contact us----- */
 .location iframe{
