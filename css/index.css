@@ -4,13 +4,13 @@
     font-family: 'poppins', sans-serif;
 }
 body{
-    background-image: linear-gradient(to bottom, #10141c, #0e1a2e, #082041, #022555, #002968, #002868, #002869, #002769, #002257, #001c45, #001533, #000c22);
+    background-image: linear-gradient(to top, #a5a7e8, #8485c3, #64659f, #45467d, #262a5c, #181e4c, #08133d, #00012f, #00012c, #01022a, #010227, #010224);
 }
 /* -----home page styling-------- */
 .header{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assets/images/bg.webp);
+    background: linear-gradient(rgba(4, 9, 30, 0.558),rgba(4, 9, 30, 0.472)),url(https://www.boxfreshtech.co.za/sitepad-data/uploads//2021/06/5cfe14_30977ca5f4d04cc2a8977a980baf19a9_mv2.gif);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -29,7 +29,7 @@ nav{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 12px 32px;
+    padding: 12px 22px;
     position: relative;
 }
 .nav-links ul li a{
@@ -145,9 +145,10 @@ p{
 .course-col a{
    background-color: #062856;
    color: #f0f0f0;
-   padding: 1%;
+   padding: 2%;
    border-radius: 10px;
    text-decoration: none;
+   margin-top: 20px;
 }
 .course-col a:hover{
   color: rgb(210, 205, 205);
@@ -314,7 +315,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://media1.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif);
+    background: linear-gradient(rgba(4, 9, 30, 0.558),rgba(4, 9, 30, 0.472)),url(https://www.boxfreshtech.co.za/sitepad-data/uploads//2021/06/5cfe14_30977ca5f4d04cc2a8977a980baf19a9_mv2.gif);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -341,7 +342,7 @@ h3{
 }
 .footer span{
     font-weight: bold;
-    color: rgb(204, 203, 229);
+    color: rgb(0, 0, 0);
 }
 .footer h4{
     margin-bottom: 25px;
@@ -355,12 +356,15 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
+.icons .fa:hover{
+    color: #01022abe;
+}
 
 /* -------about us page------- */
 .sub-header{
-    height: 35vh;
+    height: 40vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://media1.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif);
+    background: linear-gradient(rgba(4, 9, 30, 0.558),rgba(4, 9, 30, 0.472)),url(https://www.boxfreshtech.co.za/sitepad-data/uploads//2021/06/5cfe14_30977ca5f4d04cc2a8977a980baf19a9_mv2.gif);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -376,6 +380,20 @@ h3{
 }
 .about-col{
     flex-basis: 48%;
+}
+.about-col a{
+    align-items: left;
+    justify-items: left;
+    background-color: #062856;
+    color: #f0f0f0;
+    padding: 2%;
+    margin-top: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.about-col a:hover{
+    color: rgb(210, 205, 205);
 }
 #about-para{
     margin-top: 1%;
@@ -398,8 +416,17 @@ h3{
 }
 .rules h1{
     padding-top: 0;
-    text-align: left;
-    justify-content: left;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.rules{
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+    padding: 3%;
+    background-color: rgba(166, 176, 241, 0.44);
 }
 .perks h1{
     justify-content: left;
@@ -408,16 +435,59 @@ h3{
 }
 .perks{
     margin-bottom: 9%;
+    width: 100%;
 }
-.themes h1{
+.perk-right{
+    display: flex;
+    align-items: center;
+}
+.perk-right img{
+    width: 80%;
+    height: 60%;
+    border-radius: 200%;
+}
+.theme h1{
     padding-top: 0;
-    text-align: left;
-    justify-content: left;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.theme{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    border-radius: 5%;
+    padding: 3%;
+    padding-bottom: 5%;
+    background-color: rgba(166, 176, 241, 0.44);
+
+}
+.row-2{
+    display: flex;
+    width: 100%;
+    margin: 10% 0%;
+}
+@media(max-width: 700px){
+    .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .rules{
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 5%;
+    }
+    .theme{
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 5%;
+        margin-left: 0%;
+    }
 }
 /* ----contact us----- */
 .location iframe{
     width: 100%;
-
 }
 .contact-us{
     width: 80%;
@@ -454,4 +524,11 @@ h3{
     outline: none;
     border: 1px solid #ccc;
     box-sizing:border-box ;
+}
+.head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0%;
 }
