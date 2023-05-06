@@ -1,4 +1,4 @@
-### [Prewview - Research By learning Website](https://creators-rblh.netlify.app/)
+### [Preview - Research By learning Website](https://creators-rblh.netlify.app/)
 
 #Research By Learning Hackathon Website
 
